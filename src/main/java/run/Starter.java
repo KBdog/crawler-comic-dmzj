@@ -68,6 +68,8 @@ public class Starter extends Application {
         gridPane1.add(button2,2,1);
         gridPane1.add(button3,2,2);
 
+
+
         /*
         按钮
          */
