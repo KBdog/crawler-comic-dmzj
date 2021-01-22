@@ -27,11 +27,21 @@ public class ComicCrawlerSpider implements PageProcessor {
 
 
     //根据dmzj漫画域名爬漫画https://manhua.dmzj.com/
+    //备用域名https://manhua.dmzj1.com
     public void crawComicByOldUrl(Page page){
+        //漫画首页url
+        String indexPage=page.getUrl().toString();
         //从漫画首页获得所有章节
         List<String> chapterUrls=page.getHtml().xpath("//div[@class='cartoon_online_border']/ul/li/a/@href").all();
         for (String chapterUrl : chapterUrls) {
-            Request request=new Request("https://manhua.dmzj.com"+chapterUrl);
+            Request request;
+            //manhua.dmzj1.com
+            if(indexPage.indexOf("manhua.dmzj1.com")!=-1){
+                request=new Request("https://manhua.dmzj1.com"+chapterUrl);
+                //manhua.dmzj.com
+            }else {
+                request=new Request("https://manhua.dmzj.com"+chapterUrl);
+            }
             request.addHeader("Cookie", "display_mode=1");
             //把所有请求都放入队列准备访问
             page.addTargetRequest(request);
