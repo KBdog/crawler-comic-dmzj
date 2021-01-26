@@ -34,6 +34,7 @@ public class ComicCrawlerSpider implements PageProcessor {
         //从漫画首页获得所有章节
         List<String> chapterUrls=page.getHtml().xpath("//div[@class='cartoon_online_border']/ul/li/a/@href").all();
         for (String chapterUrl : chapterUrls) {
+            System.out.println("chapterUrl:"+chapterUrl);
             Request request;
             //manhua.dmzj1.com
             if(indexPage.indexOf("manhua.dmzj1.com")!=-1){

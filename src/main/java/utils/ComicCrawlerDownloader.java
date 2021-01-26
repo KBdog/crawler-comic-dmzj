@@ -4,6 +4,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeDriverService;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import run.CrawlerRun;
@@ -16,6 +17,7 @@ import us.codecraft.webmagic.selector.Html;
 import us.codecraft.webmagic.selector.PlainText;
 
 import java.io.Closeable;
+import java.io.File;
 import java.io.IOException;
 import java.util.Arrays;
 import java.util.concurrent.TimeUnit;
@@ -34,7 +36,7 @@ public class ComicCrawlerDownloader implements Downloader, Closeable {
     public Page download(Request request, Task task) {
         System.out.println("进入downloader！");
         //加载chrome驱动二进制位置
-        System.getProperties().setProperty("webdriver.chrome.driver", CrawlerRun.chromeDriverDirectory);
+//        System.getProperties().setProperty("webdriver.chrome.driver", CrawlerRun.chromeDriverDirectory);
         //设置参数
         ChromeOptions options = new ChromeOptions();
         //配置chrome浏览器二进制位置
@@ -58,7 +60,11 @@ public class ComicCrawlerDownloader implements Downloader, Closeable {
 
         //加载驱动
 //        WebDriver driver = new ChromeDriver(options);
-        WebDriver driver=new ChromeDriver(capabilities);
+//        WebDriver driver=new ChromeDriver(capabilities);
+        //使用service管理driver
+        ChromeDriverService service=new ChromeDriverService.Builder().
+                usingDriverExecutable(new File(CrawlerRun.chromeDriverDirectory)).usingAnyFreePort().build();
+        WebDriver driver=new ChromeDriver(service,capabilities);
         System.out.println("请求页:"+request.getUrl());
         //驱动请求访问
         driver.get(request.getUrl());
@@ -80,9 +86,12 @@ public class ComicCrawlerDownloader implements Downloader, Closeable {
             page.setUrl(new PlainText(request.getUrl()));
             page.setRequest(request);
         }
-        System.out.println("----------------downloader完----------------");
+        //driver自身关闭驱动
         driver.close();
         driver.quit();
+        //使用service关闭driver,关闭chrome driver接口
+        service.stop();
+        System.out.println("----------------downloader完----------------");
         return page;
     }
 
