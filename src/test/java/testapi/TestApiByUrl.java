@@ -7,7 +7,8 @@ import java.net.URLConnection;
 
 public class TestApiByUrl {
     public static void main(String[] args) throws IOException {
-        URL url=new URL("https://images.dmzj.com/webpic/17/whengkeaisda1209.jpg");
+//        URL url=new URL("https://images.dmzj.com/webpic/6/wzzsbp20200823.jpg");
+        URL url=new URL("https://mirror2.mangafunc.fun/comic/tayutadexuanze/fb251/90937426-88ae-11ea-b924-00163e0ca5bd.jpg!kb_m_read");
         URLConnection connection=url.openConnection();
         connection.setRequestProperty("referer","http://imgsmall.dmzj.com/");
 //        connection.setRequestProperty("referer","http://manhua.dmzj.com/");
@@ -21,7 +22,7 @@ public class TestApiByUrl {
 //        System.out.println(result);
 //        br.close();
 
-        File file=new File("C:\\Users\\Lenovo\\Desktop\\爬虫\\tmp.jpg");
+        File file=new File("C:\\Users\\Lenovo\\Desktop\\爬虫\\test_download\\tmp.jpg");
         InputStream inputStream=connection.getInputStream();
         BufferedInputStream bufferedInputStream=new BufferedInputStream(inputStream);
         OutputStream outputStream=new FileOutputStream(file);
@@ -31,5 +32,8 @@ public class TestApiByUrl {
             outputStream.write(cache,0,i);
             i=bufferedInputStream.read(cache);
         }
+        bufferedInputStream.close();
+        outputStream.close();
+        inputStream.close();
     }
 }

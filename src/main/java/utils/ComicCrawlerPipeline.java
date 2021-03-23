@@ -51,9 +51,6 @@ public class ComicCrawlerPipeline implements Pipeline {
                 public String call() throws Exception {
                     try {
                         Thread.sleep(sleeptime);
-                        //测试 2020年11月26日10:55:24
-//                        System.out.println(url1);
-//                        return url1;
                         //下载图片
                         return down(url1);
                     } catch (InterruptedException e) {
@@ -85,24 +82,18 @@ public class ComicCrawlerPipeline implements Pipeline {
 
     protected String down(String url) {
         try {
-//            String directory_name="D:/下载文件目录/爬虫/";
             url = url.replace(" ", "");
             //存放爬虫的目录
-//            File mangas_directory = new File("C:/Users/Lenovo/Desktop/爬虫/");
             File mangas_directory = new File(CrawlerRun.crawlerDirectory);
             if (!mangas_directory.exists() && !mangas_directory.isDirectory()) {
                 mangas_directory.mkdir();
             }
             //存放漫画类别目录
-//            File manga_directory = new File("C:/Users/Lenovo/Desktop/爬虫/" + url.split("___")[0]);
             File manga_directory = new File(CrawlerRun.crawlerDirectory + url.split("___")[0]);
             if (!manga_directory.exists() && !manga_directory.isDirectory()) {
                 manga_directory.mkdir();
             }
             //存放漫画单话目录
-//            File chapters_directory=new File("C:/Users/Lenovo/Desktop/爬虫/"+
-//                    url.split("___")[0]+"/"+
-//                    url.split("___")[1]);
             File chapters_directory=new File(CrawlerRun.crawlerDirectory+
                     url.split("___")[0]+"/"+
                     url.split("___")[1]);
@@ -110,13 +101,6 @@ public class ComicCrawlerPipeline implements Pipeline {
                 chapters_directory.mkdir();
             }
             //存放漫画单话每页图片
-//            File img=new File("C:/Users/Lenovo/Desktop/爬虫/"+
-//                    //漫画名
-//                    url.split("___")[0]+"/"+
-//                    //标题
-//                    url.split("___")[1]+"/"+
-//                    //页数
-//                    url.split("___")[2]+".jpg");
             File img=new File(CrawlerRun.crawlerDirectory+
                     //漫画名
                     url.split("___")[0]+"/"+
@@ -137,8 +121,10 @@ public class ComicCrawlerPipeline implements Pipeline {
             temp = new URL(imgurl.trim());
             HttpURLConnection uc = (HttpURLConnection) temp.openConnection();
             //添加header
+//            uc.addRequestProperty("User-Agent",
+//                    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36");
             uc.addRequestProperty("User-Agent",
-                    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36");
+                    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.104 Safari/537.36");
             //必须加refer 防封
             //漫画在url地址栏上的名字，如https://manhua.dmzj.com/wanfgodesabersang/63719.shtml中的wanfgodesabersang
             String manga_name_suffix=url.split("___")[3].split("/")[3]+"/";

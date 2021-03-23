@@ -161,10 +161,6 @@ public class Starter extends Application {
             }else{
                 CrawlerRun.mangaUrl=urlText.getText();
                 System.out.println("当前mangaUrl:"+CrawlerRun.mangaUrl);
-//                CrawlerRun.spider.addUrl(CrawlerRun.mangaUrl)
-//                        .setDownloader(CrawlerRun.downloader)
-//                        .addPipeline(CrawlerRun.pipeline)
-//                        .start();
                 CrawlerRun.spider=Spider.create(CrawlerRun.crawler);
                 CrawlerRun.spider.addUrl(CrawlerRun.mangaUrl)
                         .setDownloader(CrawlerRun.downloader)

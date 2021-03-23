@@ -39,6 +39,7 @@ public class TestSpider implements PageProcessor {
     public static void main(String[] args) {
         Spider spider=Spider.create(new TestSpider());
         spider.addUrl("http://v3api.dmzj.com/v3/recommend.json");
+//        spider.addUrl("http://sacg.dmzj.com/comicsum/search.php?s=无职转生");
         spider.run();
     }
 }

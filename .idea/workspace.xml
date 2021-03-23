@@ -7,12 +7,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ca0fdd6c-bb1d-4069-85fe-0c268665e935" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/testapi/TestAddExtension.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/testapi/TestDmzjApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/testapi/TestAddExtension.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/testapi/TestDmzjApi.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/debug.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/utils/ComicCrawlerDownloader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/ComicCrawlerDownloader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/run/CrawlerRun.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/run/CrawlerRun.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/run/Starter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/run/Starter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/utils/ComicCrawlerPipeline.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/ComicCrawlerPipeline.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/utils/ComicCrawlerSpider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/ComicCrawlerSpider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/utils/ComicCrawlerDownloader.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/utils/ComicCrawlerDownloader.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testapi/TestApiByUrl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testapi/TestApiByUrl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testapi/TestSpider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testapi/TestSpider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/run/CrawlerRun.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/run/CrawlerRun.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/run/Starter$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/run/Starter$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/run/Starter$2$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/run/Starter$2$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/run/Starter$2$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/run/Starter$2$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/run/Starter$2$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/run/Starter$2$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/run/Starter$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/run/Starter$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/run/Starter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/run/Starter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/utils/ComicCrawlerPipeline$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/utils/ComicCrawlerPipeline$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/utils/ComicCrawlerPipeline.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/utils/ComicCrawlerPipeline.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/utils/ComicCrawlerSpider.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/utils/ComicCrawlerSpider.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/testapi/TestApiByUrl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/testapi/TestApiByUrl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/testapi/TestSpider.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/testapi/TestSpider.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,20 +92,7 @@
       <recent name="D:\IDEA\IdeaProjects\crawler-comic\crawler-comic\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Starter">
-    <configuration name="CrawlerRun" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="run.CrawlerRun" />
-      <module name="crawler-comic" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="run.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.TestApiByUrl">
     <configuration name="Starter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="run.Starter" />
       <module name="crawler-comic" />
@@ -102,8 +106,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestAddExtension" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="testapi.TestAddExtension" />
+      <module name="crawler-comic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testapi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestApiByUrl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="testapi.TestApiByUrl" />
+      <module name="crawler-comic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testapi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestDmzjApi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="testapi.TestDmzjApi" />
       <module name="crawler-comic" />
       <extension name="coverage">
         <pattern>
@@ -130,10 +160,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Starter" />
         <item itemvalue="Application.TestApiByUrl" />
+        <item itemvalue="Application.Starter" />
+        <item itemvalue="Application.TestDmzjApi" />
         <item itemvalue="Application.TestSpider" />
-        <item itemvalue="Application.CrawlerRun" />
+        <item itemvalue="Application.TestAddExtension" />
       </list>
     </recent_temporary>
   </component>
@@ -168,7 +199,29 @@
       <workItem from="1611162733044" duration="453000" />
       <workItem from="1611298013067" duration="2514000" />
       <workItem from="1611644224950" duration="7737000" />
-      <workItem from="1611652271001" duration="196000" />
+      <workItem from="1611652271001" duration="763000" />
+      <workItem from="1611726358990" duration="12497000" />
+      <workItem from="1611747777427" duration="17655000" />
+      <workItem from="1611845347122" duration="1821000" />
+      <workItem from="1611905631881" duration="6056000" />
+      <workItem from="1612002604249" duration="5266000" />
+      <workItem from="1612018126533" duration="1660000" />
+      <workItem from="1612022586455" duration="3482000" />
+      <workItem from="1612029263551" duration="19000" />
+      <workItem from="1612081169330" duration="2131000" />
+      <workItem from="1612091989111" duration="679000" />
+      <workItem from="1612110080581" duration="360000" />
+      <workItem from="1612182503418" duration="3818000" />
+      <workItem from="1612533306541" duration="333000" />
+      <workItem from="1612534205174" duration="221000" />
+      <workItem from="1612535641952" duration="50000" />
+      <workItem from="1612536198804" duration="1788000" />
+      <workItem from="1612538787006" duration="665000" />
+      <workItem from="1612540832294" duration="825000" />
+      <workItem from="1612590970834" duration="1418000" />
+      <workItem from="1612684183120" duration="72000" />
+      <workItem from="1612700447809" duration="192000" />
+      <workItem from="1613743850712" duration="1317000" />
     </task>
     <task id="LOCAL-00001" summary="v1.03">
       <created>1610954181799</created>
@@ -191,7 +244,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611300503375</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="使用ChromeDriverService对driver进行管理">
+      <created>1611652774889</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1611652774889</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -201,7 +261,8 @@
     <MESSAGE value="v1.03" />
     <MESSAGE value="v1.04" />
     <MESSAGE value="添加了dmzj备用域名" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加了dmzj备用域名" />
+    <MESSAGE value="使用ChromeDriverService对driver进行管理" />
+    <option name="LAST_COMMIT_MESSAGE" value="使用ChromeDriverService对driver进行管理" />
   </component>
   <component name="WindowStateProjectService">
     <state x="361" y="76" key="#Project_Structure" timestamp="1606459072779">
@@ -212,38 +273,38 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="118" y="78" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.834@0.0.1536.834" timestamp="1606662040497" />
-    <state x="469" y="132" key="#com.intellij.ide.util.MemberChooser" timestamp="1607526185033">
+    <state x="469" y="132" key="#com.intellij.ide.util.MemberChooser" timestamp="1611845817882">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="469" y="132" key="#com.intellij.ide.util.MemberChooser/0.0.1536.834@0.0.1536.834" timestamp="1607526185033" />
+    <state x="469" y="132" key="#com.intellij.ide.util.MemberChooser/0.0.1536.834@0.0.1536.834" timestamp="1611845817882" />
     <state x="407" y="201" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1606727211835">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="407" y="201" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1536.834@0.0.1536.834" timestamp="1606727211835" />
-    <state x="348" y="9" key="CommitChangelistDialog2" timestamp="1611300501048">
+    <state x="348" y="9" key="CommitChangelistDialog2" timestamp="1611652772575">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="348" y="9" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1611300501048" />
-    <state x="457" y="158" key="FileChooserDialogImpl" timestamp="1611162965328">
+    <state x="348" y="9" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1611652772575" />
+    <state x="457" y="158" key="FileChooserDialogImpl" timestamp="1612590980176">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="457" y="158" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1611162965328" />
-    <state width="1493" height="275" key="GridCell.Tab.0.bottom" timestamp="1611652489848">
+    <state x="457" y="158" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1612590980176" />
+    <state width="1493" height="205" key="GridCell.Tab.0.bottom" timestamp="1612684255907">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="275" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1611652489848" />
-    <state width="1493" height="275" key="GridCell.Tab.0.center" timestamp="1611652489848">
+    <state width="1493" height="205" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1612684255907" />
+    <state width="1493" height="205" key="GridCell.Tab.0.center" timestamp="1612684255907">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="275" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1611652489848" />
-    <state width="1493" height="275" key="GridCell.Tab.0.left" timestamp="1611652489848">
+    <state width="1493" height="205" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1612684255907" />
+    <state width="1493" height="205" key="GridCell.Tab.0.left" timestamp="1612684255907">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="275" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1611652489848" />
-    <state width="1493" height="275" key="GridCell.Tab.0.right" timestamp="1611652489848">
+    <state width="1493" height="205" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1612684255907" />
+    <state width="1493" height="205" key="GridCell.Tab.0.right" timestamp="1612684255907">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="275" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1611652489848" />
+    <state width="1493" height="205" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1612684255907" />
     <state width="1493" height="256" key="GridCell.Tab.1.bottom" timestamp="1606727365313">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -260,14 +321,14 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state width="1493" height="256" key="GridCell.Tab.1.right/0.0.1536.834@0.0.1536.834" timestamp="1606727365313" />
-    <state x="215" y="45" key="SettingsEditor" timestamp="1611162545622">
+    <state x="215" y="0" key="SettingsEditor" timestamp="1612092670063">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="215" y="45" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1611162545622" />
-    <state x="361" y="150" key="Vcs.Push.Dialog.v2" timestamp="1611300551780">
+    <state x="215" y="0" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1612092670063" />
+    <state x="361" y="150" key="Vcs.Push.Dialog.v2" timestamp="1611652793417">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="361" y="150" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1611300551780" />
+    <state x="361" y="150" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1611652793417" />
     <state x="492" y="151" key="VcsDiffUtil.ChangesDialog" timestamp="1611162873362">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -280,18 +341,18 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="447" y="16" width="642" height="801" key="find.popup/0.0.1536.834@0.0.1536.834" timestamp="1606490854579" />
-    <state x="178" y="119" key="new project wizard" timestamp="1607263406687">
+    <state x="178" y="119" key="new project wizard" timestamp="1611765021500">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="178" y="119" key="new project wizard/0.0.1536.834@0.0.1536.834" timestamp="1607263406687" />
+    <state x="178" y="119" key="new project wizard/0.0.1536.834@0.0.1536.834" timestamp="1611765021500" />
     <state x="425" y="189" key="run.anything.popup" timestamp="1606480193406">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="425" y="189" key="run.anything.popup/0.0.1536.834@0.0.1536.834" timestamp="1606480193406" />
-    <state x="326" y="154" width="672" height="678" key="search.everywhere.popup" timestamp="1607528949410">
+    <state x="326" y="154" width="672" height="678" key="search.everywhere.popup" timestamp="1611846872517">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="326" y="154" width="672" height="678" key="search.everywhere.popup/0.0.1536.834@0.0.1536.834" timestamp="1607528949410" />
+    <state x="326" y="154" width="672" height="678" key="search.everywhere.popup/0.0.1536.834@0.0.1536.834" timestamp="1611846872517" />
     <state x="599" y="208" key="svn.repositoryBrowser" timestamp="1611163166369">
       <screen x="0" y="0" width="1536" height="834" />
     </state>

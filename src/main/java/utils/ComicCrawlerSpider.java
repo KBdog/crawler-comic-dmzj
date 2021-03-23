@@ -17,11 +17,7 @@ public class ComicCrawlerSpider implements PageProcessor {
     //标志
     private boolean flag=false;
     //设置抓取网站的相关配置，包括编码、抓取间隔、重试次数等
-    //两秒爬一次防止封ip
     private Site site = Site.me().setCycleRetryTimes(3000);
-//                        .setSleepTime(500)
-//                        .setTimeOut(5000)
-//                        .setCycleRetryTimes(3000);
     //漫画图片集合
     private List<String> mangaImgList=new ArrayList<>();
 
@@ -65,8 +61,6 @@ public class ComicCrawlerSpider implements PageProcessor {
 //                page.addTargetRequest(page.getUrl().toString());
                 System.out.println("空！！！");
             }
-            //在url中漫画的名
-            //System.out.println(page.getUrl().toString().split("/")[3]);
             //获取漫画章节选择器dom结点
             List<Selectable> s=page.getHtml().xpath("//div[@class='btmBtnBox']/select/option").nodes();
             //给mangaimglist放置内容时先清空
@@ -92,9 +86,6 @@ public class ComicCrawlerSpider implements PageProcessor {
 
     @Override
     public Site getSite() {
-//        site.setUserAgent("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36");
-//        //2020年11月26日12:18:25 加refer模拟从dmzj官网切换的页面
-//        site.addHeader("Referer","https://manhua.dmzj.com/");
         return site;
     }
 
