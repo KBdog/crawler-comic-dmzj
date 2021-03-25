@@ -7,29 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ca0fdd6c-bb1d-4069-85fe-0c268665e935" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/testapi/TestAddExtension.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/testapi/TestDmzjApi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/testapi/TestAddExtension.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/testapi/TestDmzjApi.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/run/CrawlerRun.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/run/CrawlerRun.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/run/Starter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/run/Starter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/utils/ComicCrawlerPipeline.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/ComicCrawlerPipeline.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/utils/ComicCrawlerSpider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/ComicCrawlerSpider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testapi/TestApiByUrl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testapi/TestApiByUrl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testapi/TestSpider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testapi/TestSpider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/run/CrawlerRun.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/run/CrawlerRun.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/run/Starter$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/run/Starter$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/run/Starter$2$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/run/Starter$2$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/run/Starter$2$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/run/Starter$2$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/run/Starter$2$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/run/Starter$2$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/run/Starter$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/run/Starter$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/run/Starter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/run/Starter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/utils/ComicCrawlerPipeline$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/utils/ComicCrawlerPipeline$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/utils/ComicCrawlerPipeline.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/utils/ComicCrawlerPipeline.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/utils/ComicCrawlerSpider.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/utils/ComicCrawlerSpider.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/testapi/TestApiByUrl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/testapi/TestApiByUrl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/testapi/TestSpider.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/testapi/TestSpider.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +61,7 @@
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -222,6 +201,8 @@
       <workItem from="1612684183120" duration="72000" />
       <workItem from="1612700447809" duration="192000" />
       <workItem from="1613743850712" duration="1317000" />
+      <workItem from="1616599901646" duration="14000" />
+      <workItem from="1616678669032" duration="868000" />
     </task>
     <task id="LOCAL-00001" summary="v1.03">
       <created>1610954181799</created>
@@ -265,22 +246,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="使用ChromeDriverService对driver进行管理" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="361" y="76" key="#Project_Structure" timestamp="1606459072779">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state x="361" y="76" key="#Project_Structure/0.0.1536.834@0.0.1536.834" timestamp="1606459072779" />
-    <state x="118" y="78" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1606662040498">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state x="118" y="78" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.834@0.0.1536.834" timestamp="1606662040497" />
     <state x="469" y="132" key="#com.intellij.ide.util.MemberChooser" timestamp="1611845817882">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="469" y="132" key="#com.intellij.ide.util.MemberChooser/0.0.1536.834@0.0.1536.834" timestamp="1611845817882" />
-    <state x="407" y="201" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1606727211835">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state x="407" y="201" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1536.834@0.0.1536.834" timestamp="1606727211835" />
     <state x="348" y="9" key="CommitChangelistDialog2" timestamp="1611652772575">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -305,26 +274,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state width="1493" height="205" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1612684255907" />
-    <state width="1493" height="256" key="GridCell.Tab.1.bottom" timestamp="1606727365313">
+    <state x="276" y="56" key="SettingsEditor" timestamp="1616678716302">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="256" key="GridCell.Tab.1.bottom/0.0.1536.834@0.0.1536.834" timestamp="1606727365313" />
-    <state width="1493" height="256" key="GridCell.Tab.1.center" timestamp="1606727365313">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state width="1493" height="256" key="GridCell.Tab.1.center/0.0.1536.834@0.0.1536.834" timestamp="1606727365313" />
-    <state width="1493" height="256" key="GridCell.Tab.1.left" timestamp="1606727365313">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state width="1493" height="256" key="GridCell.Tab.1.left/0.0.1536.834@0.0.1536.834" timestamp="1606727365313" />
-    <state width="1493" height="256" key="GridCell.Tab.1.right" timestamp="1606727365313">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state width="1493" height="256" key="GridCell.Tab.1.right/0.0.1536.834@0.0.1536.834" timestamp="1606727365313" />
-    <state x="215" y="0" key="SettingsEditor" timestamp="1612092670063">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state x="215" y="0" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1612092670063" />
+    <state x="276" y="56" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1616678716302" />
     <state x="361" y="150" key="Vcs.Push.Dialog.v2" timestamp="1611652793417">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -337,18 +290,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="562" y="334" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.834@0.0.1536.834" timestamp="1611649788872" />
-    <state x="447" y="16" width="642" height="801" key="find.popup" timestamp="1606490854579">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state x="447" y="16" width="642" height="801" key="find.popup/0.0.1536.834@0.0.1536.834" timestamp="1606490854579" />
     <state x="178" y="119" key="new project wizard" timestamp="1611765021500">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="178" y="119" key="new project wizard/0.0.1536.834@0.0.1536.834" timestamp="1611765021500" />
-    <state x="425" y="189" key="run.anything.popup" timestamp="1606480193406">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state x="425" y="189" key="run.anything.popup/0.0.1536.834@0.0.1536.834" timestamp="1606480193406" />
     <state x="326" y="154" width="672" height="678" key="search.everywhere.popup" timestamp="1611846872517">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
