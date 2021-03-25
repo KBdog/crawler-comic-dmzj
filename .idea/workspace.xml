@@ -202,7 +202,7 @@
       <workItem from="1612700447809" duration="192000" />
       <workItem from="1613743850712" duration="1317000" />
       <workItem from="1616599901646" duration="14000" />
-      <workItem from="1616678669032" duration="868000" />
+      <workItem from="1616678669032" duration="1148000" />
     </task>
     <task id="LOCAL-00001" summary="v1.03">
       <created>1610954181799</created>
@@ -232,7 +232,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611652774889</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="更新了readme">
+      <created>1616679584115</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1616679584116</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -243,17 +250,18 @@
     <MESSAGE value="v1.04" />
     <MESSAGE value="添加了dmzj备用域名" />
     <MESSAGE value="使用ChromeDriverService对driver进行管理" />
-    <option name="LAST_COMMIT_MESSAGE" value="使用ChromeDriverService对driver进行管理" />
+    <MESSAGE value="更新了readme" />
+    <option name="LAST_COMMIT_MESSAGE" value="更新了readme" />
   </component>
   <component name="WindowStateProjectService">
     <state x="469" y="132" key="#com.intellij.ide.util.MemberChooser" timestamp="1611845817882">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="469" y="132" key="#com.intellij.ide.util.MemberChooser/0.0.1536.834@0.0.1536.834" timestamp="1611845817882" />
-    <state x="348" y="9" key="CommitChangelistDialog2" timestamp="1611652772575">
+    <state x="348" y="9" key="CommitChangelistDialog2" timestamp="1616679581696">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="348" y="9" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1611652772575" />
+    <state x="348" y="9" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1616679581696" />
     <state x="457" y="158" key="FileChooserDialogImpl" timestamp="1612590980176">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -278,10 +286,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="276" y="56" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1616678716302" />
-    <state x="361" y="150" key="Vcs.Push.Dialog.v2" timestamp="1611652793417">
+    <state x="361" y="150" key="Vcs.Push.Dialog.v2" timestamp="1616679590605">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="361" y="150" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1611652793417" />
+    <state x="361" y="150" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1616679590605" />
     <state x="492" y="151" key="VcsDiffUtil.ChangesDialog" timestamp="1611162873362">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -294,10 +302,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="178" y="119" key="new project wizard/0.0.1536.834@0.0.1536.834" timestamp="1611765021500" />
-    <state x="326" y="154" width="672" height="678" key="search.everywhere.popup" timestamp="1611846872517">
+    <state x="326" y="154" width="672" height="678" key="search.everywhere.popup" timestamp="1616679645683">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="326" y="154" width="672" height="678" key="search.everywhere.popup/0.0.1536.834@0.0.1536.834" timestamp="1611846872517" />
+    <state x="326" y="154" width="672" height="678" key="search.everywhere.popup/0.0.1536.834@0.0.1536.834" timestamp="1616679645683" />
     <state x="599" y="208" key="svn.repositoryBrowser" timestamp="1611163166369">
       <screen x="0" y="0" width="1536" height="834" />
     </state>

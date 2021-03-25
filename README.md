@@ -11,4 +11,7 @@
 3. 运行启动类Starter
 4. 选择dmzj漫画站的某个漫画首页并复制其url填入，如`https://manhua.dmzj.com/lastgame`
 5. 点击开始（线程会监控下载过程，若完成下载会在url标签后面提示下载结束）
+## 声明
+该项目仅供学习和交流，若侵犯了您的权益请通过[我的邮箱](mailto:1246450339@qq.com)或[b站账号](https://space.bilibili.com/3368545)告知我，我会尽快删除相关内容。
+
 
